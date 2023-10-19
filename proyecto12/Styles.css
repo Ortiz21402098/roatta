@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3; /* Fondo en escala de grises */
+}
+
+#recuadro {
+    border: 2px solid #388e3c; /* Borde verde obscuro */
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #808080; /* Texto gris */
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #808080; /* Borde gris */
+}
+
+button {
+    margin-top: 10px;
+    background-color: #388e3c; /* Botón verde obscuro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #388e3c; /* Texto verde obscuro */
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel del Postulante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="recuadro">
+        <label for="totalPreguntas">Total de preguntas realizadas:</label>
+        <input type="number" id="totalPreguntas">
+        <br>
+        <label for="preguntasCorrectas">Preguntas contestadas correctamente:</label>
+        <input type="number" id="preguntasCorrectas">
+        <br>
+        <button onclick="calcularNivel()">Calcular Nivel</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
